@@ -4,9 +4,6 @@
 
 SportsPulse solves the dual scaling challenge of live sports platforms: handling thousands of live game events per minute during a match, while simultaneously serving millions of fan queries on player stats, leaderboards, and performance trends — without either path degrading the other.
 
-Built for CS6650 – Scalable Distributed Systems @ Northeastern University.
-
-**Team:** Prannov Jamadagni & Eroniction Presley
 
 ---
 
@@ -62,8 +59,7 @@ Built for CS6650 – Scalable Distributed Systems @ Northeastern University.
 
 ```bash
 # clone the repo
-git clone https://github.com/Prannov/CS6650_Scalable_Distributed_Systems.git
-cd CS6650_Scalable_Distributed_Systems/sportspulse
+git clone https://github.com/Eroniction14/SportsPulse.git
 
 # start all 7 containers
 docker compose -p sp-kafka -f docker-compose.yml up -d --build
